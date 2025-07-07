@@ -5,6 +5,8 @@ using System.Threading;
 
 namespace Cysharp.Threading.Tasks
 {
+
+
     public class AsyncLazy
     {
         static Action<object> continuation = SetCompletionSource;
